@@ -2,6 +2,9 @@
 ## Altitude:
 Altitude is entered by the user as an integer representing the altitude in feet.
 
+The altitude is also represented as in integer, and in feet, for the purposes of
+displaying altitudes on the chart where you can line up weather layers, and the like.
+
 Internally, this value is stored as a 32-bit float representing the altitude in meters.
 
 
