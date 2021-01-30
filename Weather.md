@@ -13,6 +13,11 @@ Temperature is entered by the user as an integer value representing the temperat
 
 Internally the value is stored as a 32-bit float that represents the temperature in Celsius.
 
+## Pressure:
+Pressure is entered by the user as a 32-bit float representing the pressure in Inches of Mercury (or Hg).
+The accepted input range is capped to a range of 25.00 <= X <= 35.00.
+
+Internally, the value is stored as a 32-bit float that represents the pressure in hectopascals (or hPa)
 
 ## Wind 
 ### Sustained and Gust-To Wind Speeds:
